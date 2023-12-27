@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- start swiper -->
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+    
+        swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
+    <!-- end swiper -->
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- start header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " style="z-index: 2;" id="home">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <i class="fa-solid fa-chart-simple" style="color: #000000;margin-right: 4px;"></i>Flex Start</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#abo">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ser">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#por">Portfilo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tea">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blo">Plog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#after">After About</a></li>
+                    <li><a class="dropdown-item" href="#fy">Futeures</a></li>
+                    <li><a class="dropdown-item" href="#after-fu"> After Futeures</a></li>
+                    <li><a class="dropdown-item" href="#before">Before Service</a></li>
+                    <li><a class="dropdown-item" href="#pri">Pricing</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <!-- start two nav -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mage Menu
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#after">After About</a></li>
+                    <li><a class="dropdown-item" href="#fy">Futeures</a></li>
+                    <li><a class="dropdown-item" href="#after-fu"> After Futeures</a></li>
+                    <li><a class="dropdown-item" href="#before">Before Service</a></li>
+                    <li><a class="dropdown-item" href="#pri">Pricing</a></li>
+  
+                  </ul>
+              </li>
+      
+              <!-- end two nav -->
+            </ul>
+      
+          </div>
+        </div>
+      </nav>
+    <!-- end header -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start landing -->
+    <div class="landing">
+        <div class="continer">
+            <div class="row align-items-center m-2">
+                <div class="col-md-6 .col-lg-6">
+                    <div class="text">
+                        <h1>We Offer Modern</h1>
+                        <h1>Solution For Growing</h1>
+                        <h1>Your Bussines</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit sint dolorum nisi, doloremque cupiditate quod.</h3>
+                        <button class="btn btn-primary">Get Startted <i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-left: 5px;"></i></button>
+                    </div>
+
+                </div>
+                <div class="col-md-6 .col-lg-6">
+                    <div class="iamge">
+                        <img src="img/hero-img.png" class="img-fluid" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end landing -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start about -->
+    <div class="about" id="abo">
+        <div class="continer">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-6">
+                    <div class="text align-items-center">
+                        <h4 class="text-primary">Who We Are</h4>
+                        <h3>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h3>
+                        <h2>Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.</h2>
+                        <button class="btn btn-primary">Read More <i class="fa-solid fa-arrow-right" style="color: #ffffff;margin-left: 5px;"></i></button>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="iamge">
+                        <img src="img/about.jpg" class="img-fluid" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start after about -->
+    <div class="after-about" id="after">
+        <div class="continer text-center">
+            <h5 class="text-primary mt-2">Our Values</h5>
+            <br>
+            <h2>Odit est perspiciatis laborum et dicta
+
+            </h2>
+        </div>
+        <div class="content">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-4">
+                    <div class="box">
+                        <div class="image">
+                            <img src="img/values-1.png" class="img-fluid w-100" alt="">
+                        </div>
+                        <div class="text text-center">
+                            <h3>Ad cupiditate sed est odio
+                            </h3>
+                            <h5>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.
+
+                            </h5>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box">
+                        <div class="image">
+                            <img src="img/values-2.png" class="img-fluid w-100" alt="">
+                        </div>
+                        <div class="text text-center">
+                            <h3>Voluptatem voluptatum alias
+                            </h3>
+                            <h5>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.
+
+                            </h5>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box">
+                        <div class="image">
+                            <img src="img/values-3.png" class="img-fluid w-100" alt="">
+                        </div>
+                        <div class="text text-center">
+                            <h3>Fugit cupiditate alias nobis.
+                            </h3>
+                            <h5>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.
+
+                            </h5>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <div class="continer">
+                <div class="row m-2">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="box d-flex align-items-center justify-content-center text-center">
+                            <div class="icon">
+                                <i class="fa-regular fa-face-smile" style="color: #0000a0; font-size: 30px;margin-right: 20px;"></i>
+
+                            </div>
+                            <div class="text">
+                                <h4>232</h4>
+                                <h4>Happy Cilents</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="box d-flex align-items-center justify-content-center text-center">
+                            <div class="icon">
+                                <i class="fa-regular fa-folder-open" style="color: #000000; font-size: 30px;margin-right: 20px;"></i>
+                            </div>
+                            <div class="text">
+                                <h4>521</h4>
+                                <h4>Project</h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="box d-flex align-items-center justify-content-center text-center">
+                            <div class="icon">
+                                <i class="fa-solid fa-headphones" style="color: #008000;font-size: 30px;margin-right: 20px;"></i>                            </div>
+                            <div class="text">
+                                <h4>1463</h4>
+                                <h4>Hours Of Supoorts</h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="box d-flex align-items-center justify-content-center text-center">
+                            <div class="icon">
+                                <i class="fa-solid fa-users" style="color: #ff0000;font-size: 30px;margin-right: 20px;"></i>      
+                            </div>                      <div class="text">
+                                    <div class="text">
+                                <h4>14</h4>
+                                <h4>Hard Works</h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end after about -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start fetures -->
+    <div class="fuet" id="fu" style="margin-top: 30px;">
+        <div class="continer text-center">
+            <h5 class="text-primary">Futers</h5>
+            <br>
+            <h2>Odit est perspiciatis laborum et dicta
+
+            </h2>
+        </div>
+        <div class="content">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-6">
+                    <div class="iamge">
+                        <img src="img/features.png" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3 align-items-center">
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000;margin-right: 10px; background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text align-items-center">
+                            <p>Eos aspernatur rem
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000;margin-right: 10px;background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text">
+                            <p>Facilis neque ipsa
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000; margin-right: 10px;background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text">
+                            <p>Volup amet voluptas
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000;margin-right: 10px;background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text">
+                            <p>Repellendus mollitia
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000;margin-right: 10px;background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text">
+                            <p>Repellendus mollitia
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000;margin-right: 10px;background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text">
+                            <p>Rerum omnis sint
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000;margin-right: 10px;background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text">
+                            <p>Alias possimus
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000;margin-right: 10px;background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text">
+                            <p>Repellendus mollitia
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000;margin-right: 10px;background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text">
+                            <p>Repellendus mollitia
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="boxx">
+                        <div class="icon">
+                            <i class="fa-solid fa-check" style="color: #000000;margin-right: 10px;background-color:#ddd;padding: 5px;"></i>
+
+                        </div>
+                        <div class="text">
+                            <p>Repellendus mollitia
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end fetures -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start after feut -->
+    <div class="after_fuet" id="after-fu" style="margin-top: 30px;">
+        <div class="continer">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-6">
+                    <h3 class="mt-2 text-dark-50">Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero
+                    </h3>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">SAEPE FUGA</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">VOLUPTATES</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">CORRUPTI</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <h4 class="text-dark-50 mt-2">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.
+
+                            </h4>
+                            <h4 class="text-primary"><i class="fa-solid fa-check fa-xs" style="color: #8080ff; margin-right: 5px;"></i>Repudiandae rerum velit modi et officia quasi facilis
+                            </h4>
+                            <h5>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.
+
+                            </h5>
+                            <h4 class="text-primary"><i class="fa-solid fa-check fa-xs" style="color: #8080ff; margin-right: 5px;"></i>Incidunt non veritatis illum ea ut nisi
+                            </h4>
+                            <h5>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+
+                            </h5>
+
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <h4 class="text-dark-50 mt-2">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.
+
+                            </h4>
+                            <h4 class="text-primary"><i class="fa-solid fa-check fa-xs" style="color: #8080ff; margin-right: 5px;"></i>Repudiandae rerum velit modi et officia quasi facilis
+                            </h4>
+                            <h5>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.
+
+                            </h5>
+                            <h4 class="text-primary"><i class="fa-solid fa-check fa-xs" style="color: #8080ff; margin-right: 5px;"></i>Incidunt non veritatis illum ea ut nisi
+                            </h4>
+                            <h5>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+
+                            </h5>
+                        </div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                            <h4 class="text-dark-50 mt-2">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.
+
+                            </h4>
+                            <h4 class="text-primary"><i class="fa-solid fa-check fa-xs" style="color: #8080ff; margin-right: 5px;"></i>Repudiandae rerum velit modi et officia quasi facilis
+                            </h4>
+                            <h5>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.
+
+                            </h5>
+                            <h4 class="text-primary"><i class="fa-solid fa-check fa-xs" style="color: #8080ff; margin-right: 5px;"></i>Incidunt non veritatis illum ea ut nisi
+                            </h4>
+                            <h5>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+
+                            </h5>
+                        </div>
+                        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                            <h4 class="text-dark-50 mt-2">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.
+
+                            </h4>
+                            <h4 class="text-primary"><i class="fa-solid fa-check fa-xs" style="color: #8080ff; margin-right: 5px;"></i>Repudiandae rerum velit modi et officia quasi facilis
+                            </h4>
+                            <h5>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.
+
+                            </h5>
+                            <h4 class="text-primary"><i class="fa-solid fa-check fa-xs" style="color: #8080ff; margin-right: 5px;"></i>Incidunt non veritatis illum ea ut nisi
+                            </h4>
+                            <h5>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+
+                            </h5>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="iamge">
+                        <img src="img/features-2.png" class="img-fluid" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end after feut -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start before service -->
+    <div class="before_service" id="before" style="margin-top: 60px;">
+        <div class="continer text-center m-1">
+            <h4 class="text-primary">Ratione mollitia eos ab laudantium rerum beatae quo
+            </h4>
+        </div>
+        <div class="content">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-4">
+                    <div class="image">
+                        <img src="img/features-3.png" class="img-fluid w-100" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="boxx d-flex align-items-center">
+                        <div class="icon">
+                            <i class="fa-brands fa-codepen fa-fade" style="color: #0000ff;font-size: 30px; margin-right: 15px"></i>                          
+
+                        </div>
+                       <div class="text">
+                        <h4>Corporis voluptates sit
+                        </h4>
+                        <h5>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
+
+                        </h5>
+
+                       </div>
+                    </div>
+                    <div class="boxx d-flex align-items-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-code fa-spin" style="color: #0000ff;font-size: 30px; margin-right: 15px"></i>
+                        </div>
+                       <div class="text">
+                        <h4>Labore consequatur
+                        </h4>
+                        <h5>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
+
+                        </h5>
+
+                       </div>
+                    </div>
+                    <div class="boxx d-flex align-items-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-bolt fa-flip" style="color: #0000ff;font-size: 30px; margin-right: 15px"></i>
+                        </div>
+                       <div class="text">
+                        <h4>Molestiae dolor
+                        </h4>
+                        <h5>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte
+
+                        </h5>
+
+                       </div>
+                    </div>
+                    <div class="boxx d-flex align-items-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-code-pull-request fa-bounce" style="color: #0000ff;font-size: 30px; margin-right: 15px"></i>                        </div>
+                       <div class="text">
+                        <h4>Office dolor
+                        </h4>
+                        <h5>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte
+
+                        </h5>
+
+                       </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="boxx d-flex align-items-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-flag-checkered fa-beat" style="color: #0000ff;font-size: 30px; margin-right: 15px"></i>
+                        </div>
+                       <div class="text">
+                        <h4>Ullamco laboris nisi
+                        </h4>
+                        <h5>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+
+                        </h5>
+
+                       </div>
+                    </div>
+                    <div class="boxx d-flex align-items-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-star-half-stroke fa-beat" style="color: #0000ff;font-size: 30px; margin-right: 15px"></i>
+                        </div>
+                       <div class="text">
+                        <h4>Beatae veritatis
+                        </h4>
+                        <h5>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+
+                       </div>
+                    </div>
+                    <div class="boxx d-flex align-items-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-certificate fa-beat" style="color: #0000ff;font-size: 30px; margin-right: 15px;"></i>
+
+                        </div>
+                       <div class="text">
+                        <h4>Explicabo consectetur
+                        </h4>
+                        <h5>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</h5>
+
+                       </div>
+                    </div>
+                    <div class="boxx d-flex align-items-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-qrcode fa-shake" style="color: #0000ff;font-size: 30px; margin-right: 15px;"></i>
+                        </div>
+                       <div class="text">
+                        <h4>Support consectetur
+                        </h4>
+                        <h5>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</h5>
+
+                       </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- end before service -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start service -->
+    <div class="service" id="ser" style="margin-top: 60px;">
+        <div class="continer text-center">
+            <h4 class="text-primary" style="text-shadow: 0 0 10px black;">Service</h4>
+            <h2>Veritatis et dolores facere numquam et praesentium
+
+            </h2>
+        </div>
+        <div class="content">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-4">
+                    <div class="boxx text-center">
+                        <i class="fa-solid fa-comment-dots" id="icon" style="color: #0000a0;font-size: 25px;"></i>
+                        <h4>Nesciunt Mete
+                        </h4>
+                        <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.
+
+                        </h5>
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Read More <i class="fa-solid fa-arrow-right-long" style="color: #0000ff;margin-left: 5px;vertical-align: middle;"></i></a></p>                    
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="boxx text-center m-1" id="two">
+                        <i class="fa-brands fa-square-pied-piper" style="color: white;font-size: 25px;background-color: #f68c09;padding: 10px;"></i>                        <h4>Eosle Commodi
+                        </h4>
+                        <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.
+
+                        </h5>
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#" style="color: #f68c09;">Read More <i class="fa-solid fa-arrow-right-long" style="color: #f68c09;margin-left: 5px;vertical-align: middle;"></i></a></p>                    
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="boxx text-center m-1" id="three">
+                        <i class="fa-brands fa-square-pied-piper" style="color: white;font-size: 25px;background-color: #08da4e;padding: 10px;"></i>                        <h4>Eosle Commodi
+                        </h4>
+                        <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.
+
+                        </h5>
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Read More <i class="fa-solid fa-arrow-right-long" style="color: #08da4e;margin-left: 5px;vertical-align: middle;"></i></a></p>                    
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="boxx text-center m-1" id="four">
+                        <i class="fa-brands fa-square-pied-piper" style="color: white;font-size: 25px;background-color: red;padding: 10px;"></i>                        <h4>Eosle Commodi
+                        </h4>
+                        <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.
+
+                        </h5>
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#" style="color: red;">Read More <i class="fa-solid fa-arrow-right-long" style="color: red;margin-left: 5px;vertical-align: middle;"></i></a></p>                    
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="boxx text-center m-1" id="five">
+                        <i class="fa-brands fa-square-pied-piper" style="color: white;font-size: 25px;background-color: black;padding: 10px;"></i>                        <h4>Eosle Commodi
+                        </h4>
+                        <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.
+
+                        </h5>
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#" style="color: black;">Read More <i class="fa-solid fa-arrow-right-long" style="color: black;margin-left: 5px;vertical-align: middle;"></i></a></p>                    
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="boxx text-center m-1" id="six">
+                        <i class="fa-brands fa-square-pied-piper" style="color: white;font-size: 25px;background-color: maroon;padding: 10px;"></i>                        <h4>Eosle Commodi
+                        </h4>
+                        <h5>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.
+
+                        </h5>
+                        <p><a class="link-offset-2 link-underline link-underline-opacity-0" href="#" style="color: maroon;">Read More <i class="fa-solid fa-arrow-right-long" style="color: maroon;margin-left: 5px;vertical-align: middle;"></i></a></p>                    
+                    </div>
+
+                </div>
+            </div>
+        </div>
+                
+               
+    
+    </div>
+    <!-- end service -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start pricing -->
+    <div class="pricing" id="pri" style="margin-top: 40px;">
+        <div class="continer text-center">
+            <h4 class="text-primary">Pricing</h4>
+            <h2>Check Our Pricing
+
+            </h2>
+        </div>
+        <div class="content">
+            <div class="row m-2" style="margin-top: 30px;">
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxx text-center m-1" style="background-color: #ddd;padding: 20px;line-height: 2;border-radius: 5px;">
+                        <h4 class="text-primary">Free Plan</h4>
+                        <h2>0 <sup>$</sup>/mo</h2>
+                        <img src="img/pricing-free.png" class="img-fluid" alt="">
+                        <h4>Aida Dere</h4>
+                        <h4>Nec feuight</h4>
+                        <h4>Nukka At Voilt Dola</h4>
+                        <h4 class="text-black-50"><s>Lorem ipsum dolor </s></h4>
+                        <h4 class="text-black-50"><s>Lorem ipsum dolor sit.</s></h4>
+                        <button class="btn btn-outline-primary">Buy Now</button>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxx text-center m-1" id="two" style="background-color: #ddd;padding: 20px;line-height: 2; transform: translateY(15px);border-radius: 5px">
+                        <h4 class="text-danger">Starter Plan</h4>
+                        <h2>19 <sup>$</sup>/mo</h2>
+                        <img src="img/pricing-starter.png" class="img-fluid" alt="">
+                        <h4>Aida Dere</h4>
+                        <h4>Nec feuight</h4>
+                        <h4>Nukka At Voilt Dola</h4>
+                        <h4 class="text-black-50"><s>Lorem ipsum dolor </s></h4>
+                        <h4 class="text-black-50"><s>Lorem ipsum dolor sit.</s></h4>
+                        <button class="btn btn-outline-primary">Buy Now</button>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3" style="margin-top: 20px;">
+                    <div class="boxx text-center m-1" style="background-color: #ddd;padding: 20px;line-height: 2;border-radius: 5px">
+                        <h4 class="text-warning">Bussines Plan</h4>
+                        <h2>30 <sup>$</sup>/mo</h2>
+                        <img src="img/pricing-business.png" class="img-fluid" alt="">
+                        <h4>Aida Dere</h4>
+                        <h4>Nec feuight</h4>
+                        <h4>Nukka At Voilt Dola</h4>
+                        <h4 class="text-black-50"><s>Lorem ipsum dolor </s></h4>
+                        <h4 class="text-black-50"><s>Lorem ipsum dolor sit.</s></h4>
+                        <button class="btn btn-outline-primary">Buy Now</button>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxx text-center m-1" style="background-color: #ddd;padding: 20px;line-height: 2;transform: translateY(15px);border-radius: 5px">
+                        <h4 class="text-info">Ultimate Plan</h4>
+                        <h2>60 <sup>$</sup>/mo</h2>
+                        <img src="img/pricing-ultimate.png" class="img-fluid" alt="">
+                        <h4>Aida Dere</h4>
+                        <h4>Nec feuight</h4>
+                        <h4>Nukka At Voilt Dola</h4>
+                        <h4 class="text-black-50"><s>Lorem ipsum dolor </s></h4>
+                        <h4 class="text-black-50"><s>Lorem ipsum dolor sit.</s></h4>
+                        <button class="btn btn-outline-primary">Buy Now</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end pricing -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start faq -->
+    <div class="faq" style="margin-top: 30px;">
+        <div class="continer text-center">
+            <h4 class="text-primary">F.A.Q</h4>
+            <h2>Freqently Asked Question
+
+            </h2>
+        </div>
+        <div class="content" style="margin-top: 10px;">
+            <div class="row m-2">
+                
+                <div class="col-md-6 col-lg-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, explicabo?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <strong>This is the one item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, modi!
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <strong>This is the two item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, mollitia.
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                        </div>
+                      </div>
+
+                </div>
+               <div class="col-md-6 col-lg-6 mt-1">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, rerum?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the four item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, eveniet.
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the five item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, officiis.
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the six item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+        
+                    
+            </div>
+        </div>
+    </div>
+    <!-- end faq -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- statrt portfilo -->
+    <div class="portfilo" id="por" style="margin-top: 40px;">
+        <div class="continer text-center">
+            <h4 class="text-primary" style="text-shadow: 0 0 10px black;">Portfilo</h4>
+            <h2>Check our latest work
+
+
+
+            </h2>
+        </div>
+        <div class="content">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">App</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Card</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Web</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <!-- start all -->
+                    <div class="row m-1">
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="img/portfolio/portfolio-1.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="img/portfolio/portfolio-2.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="img/portfolio/portfolio-3.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="img/portfolio/portfolio-4.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="img/portfolio/portfolio-5.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="img/portfolio/portfolio-6.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="img/portfolio/portfolio-7.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="img/portfolio/portfolio-8.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="img/portfolio/portfolio-9.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- end all -->
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <!-- start app -->
+                    <div class="row m-1">
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/high-angle-shot-lens-headphones-gimbal-phone_181624-43878.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/premium-photo/scenes-filming-films-video-products-film-crew-film-crew-set-pavilion-film-studio_124865-1835.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/old-fashioned-camera-leather-suitcase-wooden-table-generative-ai_188544-7909.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/premium-photo/man-photographer-with-camera-takes-photo-dark-copy-space_169016-17159.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/premium-psd/view-professional-expensive-photography-camera_23-2150199603.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/close-up-professional-digital-camera-tripod_169016-10266.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/optical-lens-technology-background-purple-blue-gradient_53876-124678.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/premium-photo/camera-with-wooden-backgroundcamera-with-wooden-backgroundcamera-wooden-background_912214-17547.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/premium-psd/photography-elements-with-poster-mockup-front-view_1332-25950.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                    </div>
+                    <!-- end app -->
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <!-- start card -->
+                    <div class="row m-1">
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/doomsday-scene-catastrophe-digital-illustration_456031-51.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/city-tornado-doomsday-scene-illustration_456031-22.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/moment-city-was-hit-by-nuclear-bomb-digital-painting_456031-158.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/world-collapse-doomsday-scene-digital-painting_456031-63.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/people-swallowed-by-tornadoes-illustration_456031-24.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/cruel-war-scenes-digital-painting_456031-162.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/premium-photo/ruined-building-with-large-staircase-fog-with-moonlight-through-old-windows-3d-illustration_76964-4682.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/black-background-with-green-clouds_23-2148292486.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <img src="https://img.freepik.com/free-photo/dark-room-with-light-background_1409-1809.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                        </div>
+                    </div>
+
+                    <!-- end card -->
+                </div>
+                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+              </div>
+        </div>
+    </div>
+    <!-- end portfilo -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start TESTIMONIALS -->
+    <div class="test" style="margin-top: 30px;">
+        <div class="continer text-center">
+            <h4 class="text-primary">TESTIMONIALS</h4>
+            <h2>What They Are Saying About Us
+
+
+
+            </h2>
+        </div>
+        <div class="content m-2">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+                    slides-per-view="3">
+                        <swiper-slide>
+                            <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                                <img src="img/testimonials/testimonials-1.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;"  alt="">
+                                <h4>Mulla Sane</h4>
+                                <h5 class="text-black-50"> Store Owner</h5>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                                <img src="img/testimonials/testimonials-2.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;"  alt="">
+                                <h4>Mia Sane</h4>
+                                <h5 class="text-black-50"> Helper Owner</h5>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                                <img src="img/testimonials/testimonials-3.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;"  alt="">
+                                <h4>Matt Brandon</h4>
+                                <h5 class="text-black-50"> Designer</h5>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                                <img src="img/testimonials/testimonials-4.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;"  alt="">
+                                <h4>John Amado</h4>
+                                <h5 class="text-black-50"> Ceo Founder</h5>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                                <img src="img/testimonials/testimonials-5.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;"  alt="">
+                                <h4>Amado Jold Ba</h4>
+                                <h5 class="text-black-50"> Store Owner</h5>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                                <img src="https://img.freepik.com/free-photo/hesitant-puzzled-unshaven-man-shruggs-shoulders-bewilderment-feels-indecisive-has-bristle-trendy-haircut-dressed-blue-stylish-shirt-isolated-white-wall-clueless-male-poses-indoor_273609-16518.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" style="border-radius: 50%;width: 200px;height: 200px;;margin:  0 auto;"  alt="">
+                                <h4>Amankona Ba</h4>
+                                <h5 class="text-black-50"> Ceo - Founder</h5>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                                <img src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" style="border-radius: 50%;width: 200px;height: 200px;;margin:  0 auto;"  alt="">
+                                <h4>Olia Balee</h4>
+                                <h5 class="text-black-50"> Ceo - Founder</h5>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                                <img src="https://img.freepik.com/free-photo/satisfied-handsome-bearded-millennial-guy-purple-tshirt-showing-okay-gesture-express-delighted-overjoy-good-concept-approve-awesome-idea-recommend-product-leave-positive-feedback_176420-51842.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" style="border-radius: 50%;width: 200px;height: 200px;;margin:  0 auto;"  alt="">
+                                <h4>Aristed Bance</h4>
+                                <h5 class="text-black-50"> Ceo - Founder</h5>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                                <img src="https://img.freepik.com/free-photo/happy-confident-male-entrepreneur-with-postive-smile-has-beard-mustache-keeps-arms-folded-being-high-spirit-after-successful-meeting-with-partners-poses-against-white-wall-dressed-casually_273609-16228.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" style="border-radius: 50%;width: 200px;height: 200px;;margin:  0 auto;"  alt="">
+                                <h4>Eze Emaka</h4>
+                                <h5 class="text-black-50"> Ceo - Founder</h5>
+                            </div>
+                        </swiper-slide>
+            </swiper-container>
+            
+        </div>
+    </div>
+    <!-- end TESTIMONIALS -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start team -->
+    <div class="team" id="tea" style="margin-top: 20px;">
+        <div class="continer text-center">
+            <h4 class="text-primary">Team</h4>
+            <h2>Our Hard Working Team</h2>
+
+
+
+
+        </div>
+        <div class="content">
+            <div class="row m-2">
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="card mt-1" style="width: 100%;" id="three">
+                        <div class="icon" style="background-color: #ccc;text-shadow: 0 0 10px black;z-index: 2;;width:fit-content;height: 150px;flex-wrap: wrap;display: flex;justify-content: center;align-items: center;flex-direction: column;line-height: 2;padding: 10px;">
+                            <a href="#" style="display: block;"><i class="fa-brands fa-facebook" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                            <a href="#" style="display: block;"> <i class="fa-brands fa-instagram" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                            <a href="#" style="display: block;">  <i class="fa-brands fa-github" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                            <!-- <a href="#" style="display: block;"> <i class="fa-brands fa-twitter" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a> -->
+                        </div>
+                        <img src="img/team/team-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="text-dark">Walter White</h5>
+                            <h6 class="text-black-50">Chief Executive Officer
+                            </h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3" id="two" >
+                    <div class="icon" style="background-color: #ccc;text-shadow: 0 0 10px black;z-index: 2;;width:fit-content;height: 150px;flex-wrap: wrap;display: flex;justify-content: center;align-items: center;flex-direction: column;line-height: 2;padding: 10px;">
+                        <a href="#" style="display: block;"><i class="fa-brands fa-facebook" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                        <a href="#" style="display: block;"> <i class="fa-brands fa-instagram" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                        <a href="#" style="display: block;">  <i class="fa-brands fa-github" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                        <!-- <a href="#" style="display: block;"> <i class="fa-brands fa-twitter" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a> -->
+                    </div>
+                    
+                    <div class="card mt-1 " style="width: 100%;">
+                        <img src="img/team/team-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center" id="one">
+                            <h5 class="text-dark">Walter White</h5>
+                            <h6 class="text-black-50">Chief Executive Officer
+                            </h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card mt-1" style="width: 100%;" id="five">
+                        <div class="icon" style="background-color: #ccc;text-shadow: 0 0 10px black;z-index: 2;;width:fit-content;height: 150px;flex-wrap: wrap;display: flex;justify-content: center;align-items: center;flex-direction: column;line-height: 2;padding: 10px;">
+                            <a href="#" style="display: block;"><i class="fa-brands fa-facebook" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                            <a href="#" style="display: block;"> <i class="fa-brands fa-instagram" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                            <a href="#" style="display: block;">  <i class="fa-brands fa-github" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                            <!-- <a href="#" style="display: block;"> <i class="fa-brands fa-twitter" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a> -->
+                        </div>
+                        <img src="img/team/team-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="text-dark">Willam Anderson</h5>
+                            <h6 class="text-black-50">Product Manger
+                            </h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card mt-1" style="width: 100%;" id="four">
+                        <div class="icon" style="background-color: #ccc;text-shadow: 0 0 10px black;z-index: 2;;width:fit-content;height: 150px;flex-wrap: wrap;display: flex;justify-content: center;align-items: center;flex-direction: column;line-height: 2;padding: 10px;">
+                            <a href="#" style="display: block;"><i class="fa-brands fa-facebook" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                            <a href="#" style="display: block;"> <i class="fa-brands fa-instagram" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                            <a href="#" style="display: block;">  <i class="fa-brands fa-github" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a>
+                            <!-- <a href="#" style="display: block;"> <i class="fa-brands fa-twitter" style="color: #000000;margin-top: 15px;font-size: 20px;"></i></a> -->
+                        </div>
+                        <img src="img/team/team-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="text-dark">Sarah Jonson</h5>
+                            <h6 class="text-black-50">CTO
+                            </h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end team -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+        <!-- start recent -->
+        <div class="rec" id="blo" style="margin-top: 30px;">
+            <div class="continer text-center text-primary">
+                <h4>                Recent Post Form Our Blog
+                </h4>
+            </div>
+            <div class="content">
+                <div class="row m-2">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card m-1" style="width: 100%;">
+                            <div class="image">
+                                <img src="img/blog/blog-1.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-black-50">Tue,Agust 19</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card m-1" style="width: 100%;">
+                            <div class="image">
+                                <img src="img/blog/blog-2.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-black-50">Tue,Agust 19</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card m-1" style="width: 100%;">
+                            <div class="image">
+                                <img src="img/blog/blog-3.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-black-50">Tue,Agust 19</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card m-1" style="width: 100%;">
+                            <div class="image">
+                                <img src="img/blog/blog-4.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-black-50">Tue,Agust 19</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card m-1" style="width: 100%;">
+                            <div class="image">
+                                <img src="img/blog/blog-recent-5.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-black-50">Wed,Decemper 22</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card m-1" style="width: 100%;">
+                            <div class="image">
+                                <img src="img/blog/blog-recent-4.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-black-50">Sut,Septemper 11</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card m-1" style="width: 100%;">
+                            <div class="image">
+                                <img src="img/blog/blog-recent-1.jpg" class="card-img-top" alt="...">
+
+                            </div>
+
+                            <div class="card-body">
+                              <h5 class="card-title text-black-50">Fri,Agust 14</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card m-1" style="width: 100%;">
+                            <div class="image">
+                                <img src="img/blog/blog-recent-3.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-black-50">Wed,Decemper 30</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card m-1" style="width: 100%;">
+                            <div class="image">
+                                <img src="img/blog/blog-recent-2.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title text-black-50">Thur,Agust 28</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end recent -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start contact -->
+    <div class="contact">
+        <div class="continer text-center">
+            <h4 class="text-primary">Contact </h4>
+            <h2>Contact Us</h2>
+        </div>
+        <div class="content">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="boxx mb-2" style="background-color: #ddd;padding: 20px;border-radius: 10px;line-height: 2;">
+                        <i class="fa-solid fa-location-dot fa-beat-fade" style="color: #0000ff; font-size: 25px;"></i>
+                        <h4>Adress</h4>
+                        <h4>A108 Adam Street</h4>
+                        <h4>New work,Ny 50444</h4>
+                    </div>
+                    <div class="boxx" style="background-color: #ddd;padding: 20px;border-radius: 10px;line-height: 2;">
+                        <i class="fa-solid fa-phone fa-shake" style="color: #0000ff;font-size: 25px;"></i>
+                        <h4>+85733</h4>
+                        <h4>+556677</h4>
+                        <h4>+123455</h4>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 mt-1">
+                    <div class="boxx mb-2" style="background-color: #ddd;padding: 20px;border-radius: 10px;line-height: 2;">
+                        <i class="fa-solid fa-envelopes-bulk fa-beat-fade" style="color: #0000ff;font-size: 25px;"></i>
+                        <h4>info@mail.com</h4>
+                        <h4>Contact@gmail.com</h4>
+                        <h4>emergency@yahoo.com</h4>
+                    </div>
+                    <div class="boxx mb-2" style="background-color: #ddd;padding: 20px;border-radius: 10px;line-height: 2;">
+                        <i class="fa-solid fa-clock fa-shake" style="color: #0000ff;font-size: 25px;"></i>
+                        <h4>Open-Hours</h4>
+                        <h4>9-Am</h4>
+                        <h4>5-Pm</h4>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <form action="/action_page.php mt-2" style="background-color: #ddd;padding: 10px;">
+                        <div class="mb-3 mt-3">
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="pwd" class="form-label">Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Subject:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter Subject" name="pswd">
+                          </div>
+                        
+                        <div class="form-check mb-3">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start footer -->
+    <div class="footer">
+        <div class="continer">
+            <div class="row m-2">
+                
+                <div class="col-md-6 col-lg-3">
+                    <h3><i class="fa-solid fa-chart-simple" style="color: #000000;margin-right: 4px;"></i>Flex Start</h3>
+                    <p class="h5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt veniam, perspiciatis iure earum ut, harum consectetur praesentium, fuga nisi repudiandae eveniet culpa temporibus perferendis ducimus explicabo soluta consequuntur voluptates ea.</p>
+                    <i class="fa-brands fa-facebook" style="color: #8080ff;font-size: 20px;margin-right: 5px;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #804040;font-size: 20px;margin-right: 5px;"></i>
+                    <i class="fa-brands fa-linkedin" style="color: #8080ff;font-size: 20px;margin-right: 5px;"></i>
+                    <i class="fa-brands fa-snapchat" style="color: #d2d200;font-size: 20px;margin-right: 5px;"></i>
+                    <i class="fa-brands fa-pinterest" style="color: #800000;font-size: 20px;margin-right: 5px;"></i>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4>Useful Links</h4>
+                    <ul class="list-unstyled">
+                        <li class="h5"> <a href="#">Home</a></li>
+                        <li class="h5"> <a href="#">About</a></li>
+                        <li class="h5"> <a href="#">Service</a></li>
+                        <li class="h5"> <a href="#">Term Of service</a></li>
+                        <li class="h5"> <a href="#">police privacy</a></li>
+                        <li class="h5"> <a href="#">Product manger</a></li>
+                        <li class="h5"> <a href="#">Plice Condtion</a></li>
+
+
+                    </ul>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4>Our Services</h4>
+                    <ul class="list-unstyled">
+                        <li class="h5"><a href="#">Web Design</a></li>
+                        <li class="h5"><a href="#">Web Development</a></li>
+                        <li class="h5"><a href="#">Marketing</a></li>
+                        <li class="h5"><a href="#">>Design</a></li>
+                        <li class="h5"><a href="#">Manger Product</a></li>
+                        <li class="h5"><a href="#">Haker Rank</a></li>
+                        <li class="h5"><a href="#">Buusinses Applction</a></li>
+
+
+                    </ul>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4>Contact Us</h4>
+                    <ul class="list-unstyled">
+                        <li class="h5"><i class="fa-solid fa-location-dot" style="margin-right: 5px;"></i> A 108 Adam Street</li>
+                        <li class="h5"><i class="fa-solid fa-earth-europe" style="margin-right: 5px;"></i>New Work mNy 20022</li>
+                        <li class="h5"><i class="fa-solid fa-earth-europe" style="margin-right: 5px;"></i>USA</li>
+                        <li class="h5"><i class="fa-solid fa-earth-europe" style="margin-right: 5px;"></i>UNITED STATE</li>
+                        <li class="h5"><i class="fa-solid fa-briefcase" style="margin-right: 5px;"></i>Manger Product</li>
+                        <li class="h5"><i class="fa-solid fa-phone-volume" style="margin-right: 5px;"></i>Phone:+223344</li>
+                        <li class="h5"><i class="fa-regular fa-envelope" style="color: #000000;margin-right: 5px;"></i>Email:mail@mail.com</li>
+
+
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start end -->
+    <div class="end">
+        <div class="continer text-center">
+            <h5>&copy; FlexStart All Right Reverser</h5>
+            <h5 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">By Omar Rehan</h5>
+
+        </div>
+        <div class="content">
+            <a href="#home" ><i class="fa-solid fa-arrow-right fa-rotate-270" style="background-color: blue;color: white;padding: 10px;margin-bottom: 30px;"></i></a>
+
+        </div>
+    </div>
+    <!-- end end -->
+        <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
+</html>
